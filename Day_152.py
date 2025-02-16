@@ -1,0 +1,42 @@
+
+
+
+
+
+
+print("\033[91mThis text is in red.\033[0m")
+
+print("\033[4mThis text is underlined.\033[0m")
+
+print("\033[91;4mThis text is red and underlined.\033[0m")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
