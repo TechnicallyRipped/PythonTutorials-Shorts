@@ -1,0 +1,62 @@
+
+    
+
+
+from gtts import gTTS
+
+
+with open('text.txt') as file:
+    text = file.read()
+
+    tts = gTTS(text, lang='en')
+
+    tts.save("output1.mp3")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
