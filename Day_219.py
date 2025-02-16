@@ -1,0 +1,30 @@
+
+
+
+
+with open('print.txt', 'a') as print_file:
+    print('Hello World2', file=print_file)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
