@@ -1,13 +1,12 @@
 
 
 
-from textblob import TextBlob
+from textblob import Word
 
-x = 'I hav prfect speling.'
+x = Word('mouse')
+print(x.pluralize())
 
-blob = TextBlob(x)
 
-spellcheck = blob.correct()
-
-print(spellcheck)
+y = Word('copies')
+print(y.singularize())
 
