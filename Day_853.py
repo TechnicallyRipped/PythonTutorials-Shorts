@@ -1,0 +1,43 @@
+
+
+
+
+
+user_age = int(input("Enter your age: "))
+
+age_plus_10 = user_age + 10
+
+print(f"In 10 years, you will be {age_plus_10}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
