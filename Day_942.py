@@ -10,24 +10,3 @@ df = df.with_columns(
 
 # print(df)
 print(df.select(pl.col("Point").struct.field("X")))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# df = df.with_columns(
-#     pl.col('Point').struct.rename_fields(["new_x", "new_y"])
-# )
-
-# df = df.unnest('Point')
-
-# print(df)
