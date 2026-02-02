@@ -1,0 +1,16 @@
+
+
+import pandas as pd
+
+df = pd.read_csv('risks.csv')
+
+order = ['Low','Medium','High']
+
+df['Risk'] = pd.Categorical(df['Risk'],
+                            categories=order,
+                            ordered=True)
+
+df.sort_values(by='Risk',inplace=True)
+
+print(df)
+print(df.dtypes)
