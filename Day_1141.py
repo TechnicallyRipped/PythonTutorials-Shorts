@@ -2,16 +2,14 @@
 
 
 
-import pandas as pd
+breakpoint()
 
-df = pd.DataFrame({
-    "Color": ["Blue", "Red", "Red", 
-              "Green", "Red", "Blue",]
-})
+a = 10
 
-counts = df["Color"].value_counts()
-print(counts)
+b = 20
 
-most_common = counts[counts == counts.max()]
+x = a + b
+print(x)
 
-print(most_common.index.to_list())
+y = x * a
+print(y)
